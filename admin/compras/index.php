@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla historial de compras
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla historial de compras
 
 require '../config/config.php';
 

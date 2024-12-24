@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Activa el registro de usuario
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Activa el registro de usuario
 
 require '../config/config.php';
 

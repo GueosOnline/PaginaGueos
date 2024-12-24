@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Script para validar si existe el usuario
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Script para validar si existe el usuario
 
 require_once '../config/database.php';
 require_once 'clienteFunciones.php';

@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Funciones para cifrar y descifrar datos utilizando OpenSSL.
- *
- * @link https://github.com/mroblesdev
- * @author mroblesdev
- */
+//Funciones para cifrar y descifrar datos utilizando OpenSSL.
 
 /**
  * Cifra los datos utilizando OpenSSL.

@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Genera reporte de compra en PDF usando la biblioteca FPDF
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Genera reporte de compra en PDF usando la biblioteca FPDF
 
 require '../config/config.php';
 require '../fpdf/plantilla_reporte_compra.php';

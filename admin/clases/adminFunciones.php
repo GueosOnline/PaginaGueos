@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Funciones de utilidad para administración
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Funciones de utilidad para administración
 
 function esNulo($parametos)
 {
@@ -134,12 +130,13 @@ function actualizaPasswordAdmin($userId, $password, $con)
     return false;
 }
 
-function crearTituloURL($cadena) {
+function crearTituloURL($cadena)
+{
     // Convertir la cadena a minúsculas y reemplazar caracteres especiales y espacios con guiones
     $url = strtolower($cadena);
     $url = preg_replace('/[^a-z0-9\-]/', '-', $url);
     $url = preg_replace('/-+/', "-", $url); // Reemplazar múltiples guiones con uno solo
     $url = trim($url, '-'); // Eliminar guiones al principio y al final
-    
+
     return $url;
 }

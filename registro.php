@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para registro de cliente
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para registro de cliente
 
 require 'config/config.php';
 require 'clases/clienteFunciones.php';
@@ -94,8 +90,8 @@ if (!empty($_POST)) {
 </head>
 
 <body class="d-flex flex-column h-100">
-    
-    <?php include 'menu.php'; ?>
+
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

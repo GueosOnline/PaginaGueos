@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Script para agregar al carrito de compras
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Script para agregar al carrito de compras
 
 require '../config/config.php';
 

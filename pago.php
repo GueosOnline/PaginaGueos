@@ -1,15 +1,14 @@
 <?php
 
-/**
- * Pantalla para realizar pago
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para realizar pago
+
 
 require 'config/config.php';
 
 // SDK de Mercado Pago
 require __DIR__ .  '/vendor/autoload.php';
+
+
 MercadoPago\SDK::setAccessToken(TOKEN_MP);
 $preference = new MercadoPago\Preference();
 $productos_mp = array();
@@ -46,13 +45,13 @@ if ($productos != null) {
     <link href="css/all.min.css" rel="stylesheet">
 
     <script src="https://www.paypal.com/sdk/js?client-id=<?php echo CLIENT_ID; ?>&currency=<?php echo CURRENCY; ?>"></script>
-    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script src="https://sdk.mercadpago.com/js/v2"></script>
 
 </head>
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

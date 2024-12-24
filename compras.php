@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla historial de compras
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Pantalla historial de compras
 
 require 'config/config.php';
 require 'clases/clienteFunciones.php';
@@ -42,7 +38,7 @@ $sql->execute([$idCliente]);
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

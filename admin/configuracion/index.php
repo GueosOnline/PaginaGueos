@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el formulario de configuraciones
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el formulario de configuraciones
 
 require '../config/config.php';
 require '../../clases/cifrado.php';

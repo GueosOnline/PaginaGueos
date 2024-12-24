@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Parametros para configuración
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Parametros para configuración
 
 $path = dirname(__FILE__) . DIRECTORY_SEPARATOR;
 $basePath = dirname($path, 2);

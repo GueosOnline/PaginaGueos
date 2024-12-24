@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el formulario de editar producto
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el formulario de editar producto
 
 require '../config/config.php';
 

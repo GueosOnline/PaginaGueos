@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el formulario de nuevo registro
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el formulario de nuevo registro
 
 require '../config/config.php';
 

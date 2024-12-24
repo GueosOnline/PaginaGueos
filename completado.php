@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Script para mostrar los detalles del pago
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Script para mostrar los detalles del pago
 
 require 'config/config.php';
 
@@ -54,7 +50,7 @@ if ($id_transaccion == '') {
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

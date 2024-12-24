@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Actualiza un producto
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Actualiza un producto
 
 require '../config/config.php';
 require '../clases/adminFunciones.php';

@@ -1,10 +1,7 @@
 <?php
 
-/**
- * Pantalla para recuperar contraseña de cliente
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para recuperar contraseña de cliente
+
 
 require 'config/config.php';
 require 'clases/clienteFunciones.php';
@@ -79,7 +76,7 @@ if (!empty($_POST)) {
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="form-login m-auto">

@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Scritp para destruir sesión activa del usuario
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Scritp para destruir sesión activa del usuario
 
 require 'config/config.php';
 

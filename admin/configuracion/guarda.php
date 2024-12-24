@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Garda las configuraciones
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Guarda las configuraciones
 
 require '../config/config.php';
 require '../../clases/cifrado.php';

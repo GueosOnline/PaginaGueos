@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el listado de productos en el carrito
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el listado de productos en el carrito
 
 require 'config/config.php';
 
@@ -39,7 +35,7 @@ if ($productos != null) {
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

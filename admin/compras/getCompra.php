@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Solicitud para consultar los datos de la compra
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Solicitud para consultar los datos de la compra
 
 require '../config/config.php';
 

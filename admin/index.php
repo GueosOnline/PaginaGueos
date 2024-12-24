@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para login de administración
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para login de administración
 
 require 'config/config.php';
 require 'clases/adminFunciones.php';

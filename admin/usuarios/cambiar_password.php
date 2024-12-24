@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el formulario de cambiar contraseña
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el formulario de cambiar contraseña
 
 require '../config/config.php';
 require '../clases/adminFunciones.php';

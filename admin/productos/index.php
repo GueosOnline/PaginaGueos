@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla principal para mostrar el listado de productos
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla principal para mostrar el listado de productos
 
 require '../config/config.php';
 

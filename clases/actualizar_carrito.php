@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Script para actualizar carrito de compas
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Script para actualizar carrito de compas
 
 require '../config/config.php';
 

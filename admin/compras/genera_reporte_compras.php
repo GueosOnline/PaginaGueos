@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla generar reporte de compras
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla generar reporte de compras
 
 require '../config/config.php';
 

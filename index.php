@@ -1,8 +1,7 @@
 <?php
 
-/**
- * Pantalla principal para mostrar el listado de productos
- */
+//Pantalla principal para mostrar el listado de productos
+
 
 require 'config/config.php';
 
@@ -54,6 +53,7 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
 <html lang="es" class="h-100">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +66,7 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">
@@ -93,6 +93,18 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
                     <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
                         <strong class="d-block py-2"><?php echo $totalRegistros; ?> Artículos encontrados </strong>
                         <div class="ms-auto">
+                            <form method="get" action="index.php" autocomplete="off">
+                                <div class="input-group pe-3">
+                                    <input type="text" name="q" class="form-control" placeholder="Buscar..." aria-describedby="icon-buscar">
+                                    <button class="btn btn-outline-info" type="submit" id="icon-buscar">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="ms-auto">
+
                             <form action="index.php" id="ordenForm" method="get" onchange="submitForm()">
                                 <input type="hidden" id="cat" name="cat" value="<?php echo $idCategoria; ?>">
                                 <label for="cbx-orden" class="form-label">Ordena por</label>

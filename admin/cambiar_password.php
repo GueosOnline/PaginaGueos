@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para modificar contraseña de administrador
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para modificar contraseña de administrador
 
 require 'config/config.php';
 require 'clases/adminFunciones.php';

@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla principal para mostrar el listado de usuarios
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla principal para mostrar el listado de usuarios
 
 require '../config/config.php';
 

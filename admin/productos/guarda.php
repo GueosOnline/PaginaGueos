@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Guarda el registro de producto
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Guarda el registro de producto
 
 require '../config/config.php';
 require '../clases/adminFunciones.php';

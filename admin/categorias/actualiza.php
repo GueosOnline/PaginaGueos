@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Modifica el registro para categorías
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Modifica el registro para categorías
 
 require '../config/config.php';
 

@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Funciones de utilidad para usuarios
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Funciones de utilidad para usuarios
 
 function esNulo(array $parametos)
 {

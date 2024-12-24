@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Clase para envio de correo electrónico
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Clase para envio de correo electrónico
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;

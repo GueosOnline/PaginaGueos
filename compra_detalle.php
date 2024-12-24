@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para detalles de compra
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para detalles de compra
 
 require 'config/config.php';
 require 'clases/clienteFunciones.php';
@@ -54,7 +50,7 @@ $sqlDetalle->execute([$idCompra]);
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">

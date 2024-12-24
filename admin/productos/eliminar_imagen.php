@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Elimina imagen del producto
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Elimina imagen del producto
 
 require '../config/config.php';
 

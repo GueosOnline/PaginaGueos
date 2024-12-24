@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Elimina el registro de producto (Dar de baja)
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+// Elimina el registro de producto (Dar de baja)
 
 require '../config/config.php';
 

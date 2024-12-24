@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Pantalla para mostrar el formulario para modificar
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla para mostrar el formulario para modificar
 
 require '../config/config.php';
 

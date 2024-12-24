@@ -1,10 +1,7 @@
 <?php
 
-/**
- * Pantalla individual para mostrar el producto
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Pantalla individual para mostrar el producto
+
 
 require 'config/config.php';
 
@@ -68,7 +65,7 @@ if ($sql->fetchColumn() > 0) {
 
 <body class="d-flex flex-column h-100">
 
-    <?php include 'menu.php'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- Contenido -->
     <main class="flex-shrink-0">
@@ -174,7 +171,7 @@ if ($sql->fetchColumn() > 0) {
                     if (data.ok) {
                         let elemento = document.getElementById("num_cart")
                         elemento.innerHTML = data.numero;
-                        location.href ='checkout.php';
+                        location.href = 'checkout.php';
                     }
                 })
         }

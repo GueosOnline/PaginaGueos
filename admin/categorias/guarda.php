@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Guarda el registro de categorías
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Guarda el registro de categorías
 
 require '../config/config.php';
 

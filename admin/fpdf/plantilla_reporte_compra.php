@@ -1,10 +1,6 @@
 <?php
 
-/**
- * Plantila de FPDF para genera reporte de compras
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
- */
+//Plantila de FPDF para genera reporte de compras
 
 require 'fpdf.php';
 
@@ -35,7 +31,7 @@ class PDF extends FPDF
 
         $this->SetFont('Arial', '', 9);
         $this->SetX(30);
-        $this->MultiCell(130, 5, 'Del ' . $this->fechaIni . ' al '. $this->fechaFin, 0, 'C');
+        $this->MultiCell(130, 5, 'Del ' . $this->fechaIni . ' al ' . $this->fechaFin, 0, 'C');
 
         $this->SetXY(160, $y);
         $this->Cell(40, 10, 'Fecha: ' . date('d/m/Y'), 0, 'L');
