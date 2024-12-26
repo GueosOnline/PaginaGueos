@@ -53,15 +53,16 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
 <html lang="es" class="h-100">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda en linea</title>
+
+    <title>Catalogo</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -157,6 +158,14 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com" target="_blank" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" title="Twitter" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" title="Instagram" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank" title="youtube" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.whatsapp.com" target="_blank" title="WhatsApp" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
         </div>
     </main>
 

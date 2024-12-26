@@ -13,23 +13,16 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda en linea</title>
+    <title>Sobre Nosotros</title>
 
     <link href="<?php echo SITE_URL; ?>css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
 
     <style>
-        body {
+        .body-nosotros {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
-        }
-
-        .header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
         }
 
         .card-header {
@@ -53,14 +46,6 @@ require 'config/config.php';
             color: orange;
         }
 
-        .footer {
-            background-color: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            margin-top: 50px;
-        }
-
         .card {
             margin-bottom: 20px;
         }
@@ -74,11 +59,16 @@ require 'config/config.php';
         .social-icons a:hover {
             color: #0056b3;
         }
+
+        .link {
+            text-decoration: none;
+            color: black;
+        }
     </style>
 
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="body-nosotros d-flex flex-column h-100">
 
     <?php include 'header.php'; ?>
 
@@ -92,7 +82,7 @@ require 'config/config.php';
                         Datos Generales y Sede
                     </div>
                     <div class="card-body">
-                        <p>Dirección: <a href="https://www.google.com/maps/place/Representaciones+Gueos+Ltda/@4.6160733,-74.1080304,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9979801b52d1:0x6d9a760097676969!8m2!3d4.6160733!4d-74.1080304!16s%2Fg%2F11f40qswbc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D">Carrera 41B # 5-11, Barrio Primavera, Bogotá, Colombia</a></p>
+                        <p>Dirección: <a class="link" href="https://www.google.com/maps/place/Representaciones+Gueos+Ltda/@4.6160733,-74.1080304,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9979801b52d1:0x6d9a760097676969!8m2!3d4.6160733!4d-74.1080304!16s%2Fg%2F11f40qswbc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D">arrera 41B # 5-11, Barrio Primavera, Bogotá, Colombia</a></p>
                         <p>Teléfono: +57 316 5814009</p>
                         <p>Email: info@gueos.com.co</p>
                         <p>Horario de atención: Lunes a Viernes, 7:30 AM - 5:40 PM</p>
@@ -168,7 +158,7 @@ require 'config/config.php';
                     <div class="card-body contact-info">
                         <p><i class="fas fa-phone-alt"></i> +123 456 789</p>
                         <p><i class="fas fa-envelope"></i> contacto@empresa.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Representaciones+Gueos+Ltda/@4.6160733,-74.1080304,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9979801b52d1:0x6d9a760097676969!8m2!3d4.6160733!4d-74.1080304!16s%2Fg%2F11f40qswbc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D">Carrera 41B # 5-11, Barrio Primavera, Bogotá, Colombia</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i><a class="link" href="https://www.google.com/maps/place/Representaciones+Gueos+Ltda/@4.6160733,-74.1080304,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9979801b52d1:0x6d9a760097676969!8m2!3d4.6160733!4d-74.1080304!16s%2Fg%2F11f40qswbc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D"> carrera 41B # 5-11, Barrio Primavera, Bogotá, Colombia</a></p>
                     </div>
                 </div>
 
@@ -180,7 +170,7 @@ require 'config/config.php';
                     <div class="card-body">
                         <div class="social-icons">
                             <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter mx-auto"></i></a>
+                            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                             <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>

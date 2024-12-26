@@ -5,3 +5,97 @@ main>.container {
 .form-login {
   max-width: 350px;
 }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ---------//----index.php----//---------*/
+
+/* ---------//----Botones flotantes de Redes Sociales----//---------*/
+.social-buttons {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  /* Centra los botones verticalmente */
+  z-index: 1000;
+  /* Asegura que los botones estén sobre otros elementos */
+}
+
+.social-buttons a {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 45%;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-buttons a.facebook {
+  background-color: #3b5998;
+}
+
+.social-buttons a.twitter {
+  background-color: #1da1f2;
+}
+
+.social-buttons a.instagram {
+  background: linear-gradient(45deg, #f58529, #e4405f, #9b4d96, #4c68d7, #00d2a3);
+}
+
+.social-buttons a.youtube {
+  background-color: #ff0000;
+}
+
+.social-buttons a.linkedin {
+  background-color: #0077b5;
+}
+
+.social-buttons a.whatsapp {
+  background-color: #25d366;
+}
+
+.social-buttons a:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .social-buttons a {
+    font-size: 20px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .social-buttons a {
+    font-size: 18px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-buttons a {
+    font-size: 20px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .social-buttons a {
+    font-size: 18px;
+    padding: 6px;
+  }
+}
+
+/* ---------//----Imagenes----//---------*/
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+}

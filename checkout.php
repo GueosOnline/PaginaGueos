@@ -94,7 +94,7 @@ if ($productos != null) {
 
             <?php if ($lista_carrito != null) { ?>
                 <div class="row">
-                    <div class="col-md-5 offset-md-7 d-grid gap-2">
+                    <div class="col-md-5 offset-md-7 d-grid gap-2 mb-5">
                         <?php if (isset($_SESSION['user_cliente'])) { ?>
                             <a href="pago.php" class="btn btn-primary btn-lg">Realizar pago</a>
                         <?php } else { ?>

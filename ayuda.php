@@ -13,16 +13,12 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda en linea</title>
+    <title>Ayuda</title>
 
     <link href="<?php echo SITE_URL; ?>css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-
         details {
             margin-bottom: 20px;
             border: 1px solid #ddd;
@@ -124,7 +120,7 @@ require 'config/config.php';
 
             <details>
                 <summary>
-                    <h4 class="tit_pregunta"> ¿Puedo comprar directamente con ustedes?</h4>
+                    <h4> ¿Puedo comprar directamente con ustedes?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -134,7 +130,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Cuál es el costo de envío?</h4>
+                    <h4>¿Cuál es el costo de envío?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -144,7 +140,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Cuánto tarda en llegar mi producto?</h4>
+                    <h4>¿Cuánto tarda en llegar mi producto?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -155,7 +151,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Qué medios de pago aceptan?</h4>
+                    <h4>¿Qué medios de pago aceptan?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -166,7 +162,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Puedo pagar contraentrega?</h4>
+                    <h4>¿Puedo pagar contraentrega?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -176,7 +172,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Puedo recibir varios productos en un solo paquete?</h4>
+                    <h4>¿Puedo recibir varios productos en un solo paquete?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -186,7 +182,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Puedo usar mi transportadora?</h4>
+                    <h4>¿Puedo usar mi transportadora?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
@@ -196,7 +192,7 @@ require 'config/config.php';
             </details>
             <details>
                 <summary>
-                    <h4 class="tit_pregunta">¿Por qué elegir Representaciones Gueos Ltda.?</h4>
+                    <h4>¿Por qué elegir Representaciones Gueos Ltda.?</h4>
                     <i class="fas fa-angle-down control-icon control-icon-expand" style="font-size: 40px;"></i>
                     <i class="fas fa-angle-up control-icon control-icon-close" style="font-size: 40px;"></i>
                 </summary>
