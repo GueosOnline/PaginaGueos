@@ -7,10 +7,13 @@ main>.container {
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/* ---------//-----------------//---------*/
 /* ---------//----index.php----//---------*/
+/* ---------//-----------------//---------*/
 
 /* ---------//----Botones flotantes de Redes Sociales----//---------*/
 .social-buttons {
@@ -29,7 +32,7 @@ body {
   background-color: #333;
   color: white;
   padding: 10px;
-  border-radius: 45%;
+  border-radius: 50%;
   font-size: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -54,10 +57,6 @@ body {
 
 .social-buttons a.linkedin {
   background-color: #0077b5;
-}
-
-.social-buttons a.whatsapp {
-  background-color: #25d366;
 }
 
 .social-buttons a:hover {
@@ -98,4 +97,89 @@ body {
   height: 200px;
   object-fit: contain;
   object-position: center;
+}
+
+/* ---------//----Boton de WhatsApp----//---------*/
+
+/* Estilo para el icono de WhatsApp */
+.whatsapp-link i {
+  font-size: 30px;
+  /* Tamaño grande para el icono */
+  line-height: 0;
+  /* Evitar espacio adicional por la línea de base */
+}
+
+/* Posición fija del botón */
+.sm-fixed {
+  position: fixed;
+  bottom: 10px;
+  /* Distancia desde el borde inferior */
+  right: 20px;
+  /* Distancia desde el borde derecho */
+}
+
+/* Estilos para el botón */
+.sm-button {
+  padding: 15px 18px;
+  background-color: rgb(48, 191, 57);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.sm-button-text {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.sm-button:hover {
+  transform: scale(1.1);
+  background-color: rgb(30, 157, 45);
+  /* Verde más oscuro en hover */
+}
+
+/* Consultas de medios para pantallas pequeñas */
+@media (max-width: 1024px) {
+  .sm-button {
+    padding: 12px 25px;
+    /* Reducir el tamaño del botón en pantallas medianas */
+    font-size: 16px;
+    /* Reducir el tamaño de la fuente */
+  }
+
+  .sm-button-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-button {
+    padding: 10px 20px;
+    /* Más pequeño en pantallas aún más pequeñas */
+    font-size: 14px;
+  }
+
+  .sm-button-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sm-button {
+    padding: 8px 18px;
+    /* Botón más pequeño en pantallas muy pequeñas */
+    font-size: 15px;
+    /* Reducir aún más el tamaño de la fuente */
+  }
+
+  .sm-button-text {
+    font-size: 10px;
+    /* Texto aún más pequeño */
+  }
 }

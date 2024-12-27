@@ -73,29 +73,6 @@
     <div class="container py-4 py-lg-5 ">
         <div class="row justify-content-center">
 
-            <!-- Redes Sociales -->
-            <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                <h1 class="footer-title">Redes Sociales</h1>
-
-                <ul class="footer-list">
-                    <li>
-                        <a href="https://www.facebook.com" class="footer-link">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com" class="footer-link">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com" class="footer-link">YouTube</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" class="footer-link">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com" class="footer-link">Instagram</a>
-                    </li>
-                </ul>
-            </div>
-
             <!-- Informacion de la empresa -->
             <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                 <h1 class="footer-title">Nuestra Compañia</h1>
@@ -112,26 +89,6 @@
                     </li>
                     <li>
                         <a href="index.php" class="footer-link">Trabaja con nosotros</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Informacion de compras en linea -->
-            <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                <h1 class="footer-title">Compras en linea</h1>
-
-                <ul class="footer-list">
-                    <li>
-                        <a href="ayuda.php" class="footer-link">Preguntas frecuentes</a>
-                    </li>
-                    <li>
-                        <a href="pagoSeguro.php" class="footer-link">Pago seguro</a>
-                    </li>
-                    <li>
-                        <a href="metodoEnvio.php" class="footer-link">Métodos de envío</a>
-                    </li>
-                    <li>
-                        <a href="medioPago.php" class="footer-link">Medios de pago</a>
                     </li>
                 </ul>
             </div>
@@ -156,6 +113,52 @@
                     <li>
                         <a href="index.php" class="footer-link">Poltica de cambios y devoluciones </a>
                     </li>
+                </ul>
+            </div>
+
+            <!-- Informacion de compras en linea -->
+            <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                <h1 class="footer-title">Compras en linea</h1>
+
+                <ul class="footer-list">
+                    <li>
+                        <a href="ayuda.php" class="footer-link">Preguntas frecuentes</a>
+                    </li>
+                    <li>
+                        <a href="pagoSeguro.php" class="footer-link">Pago seguro</a>
+                    </li>
+                    <li>
+                        <a href="metodoEnvio.php" class="footer-link">Métodos de envío</a>
+                    </li>
+                    <li>
+                        <a href="medioPago.php" class="footer-link">Medios de pago</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!-- Redes Sociales -->
+            <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                <h1 class="footer-title">Redes Sociales</h1>
+
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://www.facebook.com/RepGueos" class="footer-link">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/representacionesgueosltda" class="footer-link">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@gueos-RG" class="footer-link">YouTube</a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/RepGueosLtda" class="footer-link">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/representaciones.gueos/" class="footer-link">Instagram</a>
+                    </li>
+
                 </ul>
             </div>
         </div>

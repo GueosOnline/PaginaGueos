@@ -20,11 +20,6 @@ require 'config/config.php';
     <link href="css/estilos.css" rel="stylesheet">
 
     <style>
-        .body-nosotros {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-
         .card-header {
             background-color: black;
             /* Fondo negro para los encabezados */
@@ -169,12 +164,11 @@ require 'config/config.php';
                     </div>
                     <div class="card-body">
                         <div class="social-icons">
-                            <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.whatsapp.com" target="_blank" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/RepGueos" target="_blank" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/RepGueosLtda" target="_blank" title="Twitter" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/representaciones.gueos/  " target="_blank" title="Instagram" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@gueos-RG" target="_blank" title="youtube" class="youtube"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/representacionesgueosltda" target="_blank" title="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

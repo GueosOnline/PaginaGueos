@@ -160,13 +160,23 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
         <div class="social-buttons">
-            <a href="https://www.facebook.com" target="_blank" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" title="Twitter" class="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" target="_blank" title="Instagram" class="instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com" target="_blank" title="youtube" class="youtube"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.whatsapp.com" target="_blank" title="WhatsApp" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/RepGueos" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/RepGueosLtda" title="Twitter" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/representaciones.gueos/" title="Instagram" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@gueos-RG" title="youtube" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/representacionesgueosltda" title="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+
         </div>
+
+        <a href="https://wa.me/573165814009?text=Hola%2C%20tengo%20una%20consulta" title="Contáctanos por WhatsApp" class="whatsapp-link">
+            <div class="sm-shake bottom-center sm-fixed sm-button  sm-button-text sm-rounded">
+                <i class="fab fa-whatsapp"></i> <!-- Icono de WhatsApp -->
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span style="color: white;">Contáctanos por WhatsApp</span>
+            </div>
+        </a>
+
     </main>
 
     <?php include 'footer.php'; ?>

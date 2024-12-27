@@ -1,4 +1,8 @@
     <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
         /* ---------//----Barra de Navegación----//---------*/
         .navbar {
 
@@ -8,16 +12,12 @@
         .nav-font {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: white;
-            /* Cambia el color del texto */
             font-size: 17px;
-            /* Cambia el tamaño de la fuente */
             text-decoration: none;
-            /* Elimina el subrayado */
         }
 
         .nav-font:hover {
             color: orange;
-            /* Cambia el color a naranja cuando el cursor está sobre el enlace */
         }
 
         /* ---------//----Boton Carrito----//---------*/
