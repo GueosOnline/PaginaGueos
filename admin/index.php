@@ -37,11 +37,15 @@ if (!empty($_POST)) {
 
     <style>
         body {
-            background-image: url('images/background.jpg');
+            background-image: url('images/FondoLoginAdmin.jpg');
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        .form-floating input:focus+label {
+            color: white !important;
         }
     </style>
 </head>
@@ -49,49 +53,45 @@ if (!empty($_POST)) {
 <body class="bg-aprimary bga-gradient">
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
-            <main>
+            <main class="m-auto pt-4">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-5">
-                            <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                <div class="card-header">
-                                    <h3 class="text-center font-weight-light my-2">Administración de tienda</h3>
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="text-center font-weight-light mb-3">Iniciar sesión</h4>
-                                    <form action="index.php" method="post" autocomplete="off">
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="usuario" name="usuario" type="text" placeholder="usuario" autofocus required />
-                                            <label for="usuario">Usuario</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <input class="form-control" id="password" name="password" type="password" placeholder="Contraseña" required />
-                                            <label for="password">Contraseña</label>
-                                        </div>
 
-                                        <?php mostrarMensajes($errors); ?>
+                            <div class=" mb-5 mt-5 mx-auto" style="max-width: 350px;">
+                                <img src="../images/logos/LogoGueos.jpg" class="img-fluid">
+                            </div>
 
-                                        <div class="d-grid gap-3 col-12">
-                                            <button type="submit" class="btn btn-primary">Ingresar</button>
-                                        </div>
-                                    </form>
-                                </div>
+                            <div class="card-header">
+                                <h3 class="text-center text-light">Iniciar sesion</h3>
+                                <p class="text-center mb-4 text-light">Administrador</p>
+                            </div>
+
+                            <div class="card-body">
+
+                                <form action="index.php" method="post" autocomplete="off">
+
+                                    <div class="form-floating mb-3 col-6 mx-auto">
+                                        <input class="form-control text-light" id="usuario" name="usuario" type="text" autofocus style="background-color: rgba(0, 0, 0, 0.7); color:white;" required />
+                                        <label for="password" style="color: black;">Usuario</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3 col-6 mx-auto">
+                                        <input class="form-control text-light" id="password" name="password" type="password" style="background-color: rgba(0, 0, 0, 0.7);" required />
+                                        <label for="password" style="color: black;">Contraseña</label>
+                                    </div>
+
+                                    <?php mostrarMensajes($errors); ?>
+
+                                    <div class="d-grid col-3 mx-auto">
+                                        <button type="submit" class="btn" style="background-color:	#f58021;">Ingresar</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </main>
-        </div>
-        <div id="layoutAuthentication_footer">
-            <footer class="py-4 bg-light mt-auto">
-                <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">
-                            <?php echo date('Y'); ?> &copy; <a href="https://github.com/mroblesdev">MRoblesDev</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

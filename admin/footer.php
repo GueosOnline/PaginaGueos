@@ -2,7 +2,7 @@
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
             <div class="text-muted">
-                <?php echo date('Y'); ?> &copy; <a href="https://github.com/mroblesdev">MRoblesDev</a>
+
             </div>
         </div>
     </div>

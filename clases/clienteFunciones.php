@@ -35,7 +35,7 @@ function generarToken()
 
 function registraCliente(array $datos, $con)
 {
-    $sql = $con->prepare("INSERT INTO clientes (nombres, apellidos, email, telefono, dni,estatus, fecha_alta) VALUES(?,?,?,?,?, 1, now())");
+    $sql = $con->prepare("INSERT INTO clientes (nombres, apellidos, email, telefono, cedula,estatus, fecha_alta) VALUES(?,?,?,?,?, 1, now())");
     if ($sql->execute($datos)) {
         return $con->lastInsertId();
     }
@@ -90,9 +90,9 @@ function validaToken($id, $token, $con)
     $sql->execute([$id, $token]);
     if ($sql->fetchColumn() > 0) {
         if (activarUsuario($id, $con)) {
-            $msg = "Cuenta activada.";
+            $msg = "Su Cuenta ha sido activada. <br>Ya puede cerrar esta ventana.";
         } else {
-            $msg = "Error al activar cuenta.";
+            $msg = "Error al activar su cuenta.";
         }
     } else {
         $msg = "No existe el registro del cliente.";

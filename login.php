@@ -41,19 +41,27 @@ if (!empty($_POST)) {
     <link href="<?php echo SITE_URL; ?>css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+    <style>
+        .log {
+            max-width: 250px;
+        }
+    </style>
+
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="body-login" style="background-image: url('images/FondoLogin.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+
 
     <?php include 'header.php'; ?>
 
     <!-- Contenido -->
-    <main class="form-login m-auto pt-4">
+    <main class="form-login m-auto pt-4 text-center mt-5">
+        <i class="log fas fa-users fa-5x"></i> <!-- Cambié el tamaño a fa-3x -->
         <h2>Iniciar sesión</h2>
 
         <?php mostrarMensajes($errors); ?>
 
-        <form class="row g-3" action="login.php" method="post" autocomplete="off">
+        <form class="row g-3 mt-4" action="login.php" method="post" autocomplete="off">
 
             <input type="hidden" name="proceso" value="<?php echo $proceso; ?>">
 
@@ -70,19 +78,17 @@ if (!empty($_POST)) {
                 <a href="recupera.php">¿Olvidaste tu contraseña?</a>
             </div>
 
-            <div class="d-grid gap-3 col-12">
+            <div class="d-grid gap-3 col-8 mx-auto">
                 <button type="submit" class="btn btn-primary">Ingresar</button>
             </div>
 
             <hr>
-            <div class="col-12">
+            <div class="col-12 text-center">
                 ¿No tiene cuenta? <a href="registro.php">Registrate aquí</a>
             </div>
         </form>
         </div>
     </main>
-
-    <?php include 'footer.php'; ?>
 
     <script src="<?php echo SITE_URL; ?>js/bootstrap.bundle.min.js"></script>
 
