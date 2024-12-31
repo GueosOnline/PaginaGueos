@@ -66,7 +66,7 @@ if ($id_transaccion == '') {
 
                 <div class="row">
                     <div class="col">
-                        <b>Folio de compra:</b> <?php echo $id_transaccion; ?><br>
+                        <b>ID de compra:</b> <?php echo $id_transaccion; ?><br>
                         <b>Fecha de compra:</b> <?php echo $row['fecha']; ?><br>
                         <b>Total:</b> <?php echo $row['total']; ?><br>
                     </div>

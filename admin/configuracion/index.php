@@ -46,6 +46,9 @@ require '../header.php';
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="mp-tab" data-bs-toggle="tab" data-bs-target="#mp-tab-pane" type="button" role="tab" aria-controls="mp-tab-pane" aria-selected="false">Mercado Pago</button>
                 </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="wp-tab" data-bs-toggle="tab" data-bs-target="#wp-tab-pane" type="button" role="tab" aria-controls="wp-tab-pane" aria-selected="false">Wompi</button>
+                </li>
             </ul>
 
             <div class="tab-content mt-4" id="myTabContent">
@@ -130,6 +133,34 @@ require '../header.php';
                     </div>
                 </div>
 
+                <!-- Tab Wompi -->
+                <div class="tab-pane fade" id="wp-tab-pane" role="tabpanel" aria-labelledby="wp-tab" tabindex="0">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="wp_public">Llave Publica</label>
+                            <input class="form-control" type="text" name="wp_public" id="wp_public" value="<?php echo $config['wp_public']; ?>">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="wp_private">Llave privada</label>
+                            <input class="form-control" type="text" name="wp_private" id="wp_private" value="<?php echo $config['wp_private']; ?>">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="wp_public">Eventos</label>
+                            <input class="form-control" type="text" name="wp_public" id="wp_public" value="<?php echo $config['wp_events']; ?>">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="wp_public">Integridad</label>
+                            <input class="form-control" type="text" name="wp_public" id="wp_public" value="<?php echo $config['wp_integrity']; ?>">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row mt-4">

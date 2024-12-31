@@ -198,7 +198,7 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
                         let elemento = document.getElementById("num_cart")
                         elemento.innerHTML = data.numero;
                     } else {
-                        alert("No ay suficientes productos en el stock")
+                        alert("Lo sentimos.. En este momento, no hay suficientes existencias")
                     }
                 })
         }

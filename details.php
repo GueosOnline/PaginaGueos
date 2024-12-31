@@ -152,9 +152,15 @@ if ($sql->fetchColumn() > 0) {
                     if (data.ok) {
                         let elemento = document.getElementById("num_cart")
                         elemento.innerHTML = data.numero;
+                    } else {
+                        alert("Lo sentimos.. En este momento, no hay suficientes existencias")
                     }
                 })
         }
+
+
+
+
 
         function comprarAhora(id, cantidad) {
             var url = 'clases/carrito.php';
