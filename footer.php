@@ -79,10 +79,10 @@
 
                 <ul class="footer-list">
                     <li>
-                        <a href="index.php" class="footer-link">Quiénes somos</a>
+                        <a href="quienSomos.php" class="footer-link">Quiénes somos</a>
                     </li>
                     <li>
-                        <a href="index.php" class="footer-link">Nuestras Marcas</a>
+                        <a href="marcas.php" class="footer-link">Nuestras Marcas</a>
                     </li>
                     <li>
                         <a href="index.php" class="footer-link">Contáctenos</a>
