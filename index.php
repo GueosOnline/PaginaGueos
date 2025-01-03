@@ -1,14 +1,23 @@
 <?php
 
+<<<<<<< HEAD
+=======
+//Pantalla principal para mostrar el listado de productos
+
+
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 require 'config/config.php';
 
 $db = new Database();
 $con = $db->conectar();
 
 $idCategoria = $_GET['cat'] ?? '';
+<<<<<<< HEAD
 $idSubcategoria = $_GET['subcategoria'] ?? '';  // Subcategoria seleccionada
 $idSubsubcategoria = $_GET['subsubcategoria'] ?? '';  // Sub-subcategoria seleccionada
 
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 $orden = $_GET['orden'] ?? '';
 $buscar = $_GET['q'] ?? '';
 
@@ -22,7 +31,10 @@ $orders = [
 $order = $orders[$orden] ?? '';
 $params = [];
 
+<<<<<<< HEAD
 //Consulta para filtrar productos
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 $sql = "SELECT id, slug, nombre, precio FROM productos WHERE activo=1";
 
 if (!empty($buscar)) {
@@ -31,10 +43,19 @@ if (!empty($buscar)) {
     $params[] = "%$buscar%";
 }
 
+<<<<<<< HEAD
+=======
+if (!empty($idCategoria)) {
+    $sql .= " AND id_categoria = ?";
+    $params[] = $idCategoria;
+}
+
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 if (!empty($order)) {
     $sql .= " ORDER BY $order";
 }
 
+<<<<<<< HEAD
 if (!empty($idCategoria)) {
     // Obtener todas las subcategorías de la categoría seleccionada
     $subcategorias = getSubcategorias($con, $idCategoria);
@@ -70,11 +91,14 @@ if (!empty($idSubsubcategoria)) {
         $sql .= " AND id_categoria IN (" . implode(',', $subcategorias) . ")";
     }
 }
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 $query = $con->prepare($sql);
 $query->execute($params);
 $resultado = $query->fetchAll(PDO::FETCH_ASSOC);
 $totalRegistros = count($resultado);
 
+<<<<<<< HEAD
 $categoriaSql = $con->prepare("SELECT id, nombre, id_padre FROM categorias WHERE activo=1");
 $categoriaSql->execute();
 $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
@@ -152,6 +176,13 @@ function getAllSubcategorias($con)
 }
 ?>
 
+=======
+$categoriaSql = $con->prepare("SELECT id, nombre FROM categorias WHERE activo=1");
+$categoriaSql->execute();
+$categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -165,6 +196,10 @@ function getAllSubcategorias($con)
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+<<<<<<< HEAD
+=======
+
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -178,6 +213,7 @@ function getAllSubcategorias($con)
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="card shadow-sm">
                         <div class="card-header">
+<<<<<<< HEAD
                             Filtrar por Categoría
                         </div>
                         <div class="card-body">
@@ -213,6 +249,18 @@ function getAllSubcategorias($con)
                                 <button type="submit" class="btn btn-primary">Filtrar</button>
                                 <a href="index.php" class="btn btn-primary">Quitar filtro</a>
                             </form>
+=======
+                            Categorías
+                        </div>
+
+                        <div class="list-group">
+                            <a href="index.php" class="list-group-item list-group-item-action">TODO</a>
+                            <?php foreach ($categorias as $categoria) { ?>
+                                <a href="index.php?cat=<?php echo $categoria['id']; ?>" class="list-group-item list-group-item-action <?php echo ($categoria['id'] == $idCategoria) ? 'active' : ''; ?>">
+                                    <?php echo $categoria['nombre']; ?>
+                                </a>
+                            <?php } ?>
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
                         </div>
                     </div>
                 </div>
@@ -309,8 +357,11 @@ function getAllSubcategorias($con)
     <?php include 'footer.php'; ?>
 
     <script src="<?php echo SITE_URL; ?>js/bootstrap.bundle.min.js"></script>
+<<<<<<< HEAD
     <script src="<?php echo SITE_URL; ?>js/all.min.js"></script>
 
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
     <script>
         function addProducto(id) {
             var url = 'clases/carrito.php';
@@ -335,6 +386,7 @@ function getAllSubcategorias($con)
         function submitForm() {
             document.getElementById("ordenForm").submit();
         }
+<<<<<<< HEAD
 
         function actualizarSubcategorias() {
             var categoriaId = document.getElementById('categoria').value;
@@ -401,6 +453,9 @@ function getAllSubcategorias($con)
         }
     </script>
 
+=======
+    </script>
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 </body>
 
 </html>

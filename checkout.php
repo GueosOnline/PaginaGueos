@@ -1,6 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 //Pantalla para mostrar el listado de productos en el carrito
 
 require 'config/config.php';

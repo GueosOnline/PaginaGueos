@@ -2,7 +2,10 @@
 
 //Pantalla para politica de Privacidad de la empresa
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fd69878bf65c7dc1fe29a1fa0e32f9ff554d9776
 require 'config/config.php';
 
 ?>
