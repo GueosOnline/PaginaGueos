@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla individual para mostrar el producto
 
 

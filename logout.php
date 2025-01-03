@@ -1,5 +1,6 @@
 <?php
 
+
 //Scritp para destruir sesión activa del usuario
 
 require 'config/config.php';

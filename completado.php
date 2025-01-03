@@ -1,5 +1,6 @@
 <?php
 
+
 //Script para mostrar los detalles del pago
 
 require 'config/config.php';

@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para politica de Privacidad de la empresa
 
 require 'config/config.php';

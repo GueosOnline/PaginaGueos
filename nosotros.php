@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para informacion empresa
 
 require 'config/config.php';

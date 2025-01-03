@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para detalles de compra
 
 require 'config/config.php';

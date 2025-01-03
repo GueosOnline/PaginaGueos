@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para login de cliente
 
 require 'config/config.php';

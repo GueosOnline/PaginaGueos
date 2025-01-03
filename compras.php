@@ -1,5 +1,6 @@
 <?php
 
+
 // Pantalla historial de compras
 
 require 'config/config.php';

@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para modificar contraseña
 
 require 'config/config.php';

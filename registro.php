@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para registro de cliente
 
 require 'config/config.php';

@@ -1,4 +1,5 @@
 <?php
+
 require 'config/config.php';
 
 $db = new Database();
@@ -180,6 +181,7 @@ function getAllSubcategorias($con)
                             Filtrar por Categoría
                         </div>
                         <div class="card-body">
+
                             <!-- Filtro de categoría -->
                             <form method="get" action="index.php">
                                 <div class="mb-3">

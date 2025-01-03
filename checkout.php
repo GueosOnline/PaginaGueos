@@ -1,5 +1,6 @@
 <?php
 
+
 //Pantalla para mostrar el listado de productos en el carrito
 
 require 'config/config.php';
